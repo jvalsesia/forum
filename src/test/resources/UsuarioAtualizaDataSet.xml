@@ -1,0 +1,51 @@
+<!DOCTYPE dataset SYSTEM "dataset.dtd">
+
+<dataset>
+    <table name="usuario">
+        <column>login</column>
+        <column>email</column>
+        <column>nome</column>
+        <column>senha</column>
+        <column>pontos</column>
+      
+        <row>
+            <value>dtargaryen</value>
+            <value>dtargaryen@targaryen.com</value>
+            <value>Daenerys Targaryen</value>
+            <value>FireAndBlood</value>
+            <value>99</value>
+        </row>
+      
+        <row>
+            <value>estark</value>
+            <value>estark@stark.com</value>
+            <value>Eddard Stark</value>
+            <value>WinterIsComing</value>
+            <value>95</value>
+        </row>
+        	
+   
+        
+        <row>
+            <value>jlannister</value>
+            <value>jlannister@lannister.com</value>
+            <value>Jaime Lannister</value>
+            <value>HearMeRoar!</value>
+            <value>180</value>
+        </row>
+       
+        <row>
+            <value>rbaratheon</value>
+            <value>rbaratheon@baratheon.com</value>
+            <value>Robert Baratheon</value>
+            <value>OursIsTheFury</value>
+            <value>88</value>
+        </row>
+      
+      
+       
+    </table>
+	
+</dataset>
+
+<!-- Reference: http://dbunit.sourceforge.net/components.html#FlatXmlDataSet -->

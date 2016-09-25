@@ -1,0 +1,38 @@
+<!DOCTYPE dataset SYSTEM "dataset.dtd">
+
+<dataset>
+    <table name="usuario">
+        <column>titulo</column>
+        <column>conteudo</column>
+        <column>login</column>  
+        
+        <row>
+            <value>titulo 01</value>
+            <value>conteudo 01</value>
+            <value>jlannister</value>
+        </row>
+        
+        <row>
+            <value>titulo 01</value>
+            <value>conteudo 01</value>
+            <value>estark</value>
+        </row>
+        	
+        <row>
+            <value>titulo 01</value>
+            <value>conteudo 01</value>
+            <value>dtargaryen</value>
+        </row>
+       
+        <row>
+            <value>titulo 01</value>
+            <value>conteudo 01</value>
+            <value>rbaratheon</value>
+        </row>
+        
+       
+    </table>
+	
+</dataset>
+
+<!-- Reference: http://dbunit.sourceforge.net/components.html#FlatXmlDataSet -->
